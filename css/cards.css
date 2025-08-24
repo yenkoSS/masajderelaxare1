@@ -1,0 +1,94 @@
+.card-faq {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.308);
+}
+
+@media screen and (min-width: 1200px) {
+  .card-advantages {
+    transition: 200ms ease-out;
+  }
+
+  .card-advantages:hover {
+    background-color: var(--color-secondary) !important;
+    transition: 200ms ease-in;
+    transform: translateY(-6px);
+  }
+
+  .card-advantages:hover p {
+    color: white !important;
+    transition: 200ms ease-in;
+  }
+
+  .card-advantages:hover h3 {
+    color: white !important;
+    transition: 200ms ease-in;
+  }
+
+  .card-services {
+    transition: 200ms ease-out;
+  }
+
+  .card-services:hover {
+    background-color: var(--color-primary) !important;
+    transition: 200ms ease-in;
+    transform: translateY(-6px);
+  }
+
+  .card-services:hover p {
+    color: white !important;
+    transition: 200ms ease-in;
+  }
+
+  .card-services:hover h3 {
+    color: white !important;
+    transition: 200ms ease-in;
+  }
+
+  .card-services:hover a {
+    background-color: white !important;
+    color: var(--color-primary) !important;
+    transition: 200ms ease-in;
+  }
+
+  .card-services:hover svg {
+    fill: white !important;
+  }
+
+  .card-subscription {
+    transition: 200ms ease-out;
+  }
+
+  .card-subscription:hover {
+    background-color: var(--color-primary) !important;
+    transition: 200ms ease-in;
+    transform: translateY(-6px);
+  }
+
+  .card-subscription:hover p {
+    color: white !important;
+    transition: 200ms ease-in;
+  }
+
+  .card-subscription:hover h3 {
+    color: white !important;
+    transition: 200ms ease-in;
+  }
+
+  .card-subscription:hover a {
+    background-color: white !important;
+    color: var(--color-primary) !important;
+    transition: 200ms ease-in;
+  }
+
+  .card-subscription:hover svg {
+    fill: white !important;
+  }
+
+  .card-faq {
+    transition: 200ms ease-out;
+  }
+
+  .card-faq:hover {
+    transition: 200ms ease-in;
+    transform: translateX(-6px);
+  }
+}
