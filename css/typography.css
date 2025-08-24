@@ -43,21 +43,15 @@ h2 {
   font-weight: 500;
   width: fit-content;
   text-align: center;
-  line-height: 5rem;
+  line-height: 3rem;
 }
 
 h2 span {
   font-family: var(--font-heading-primary), sans-serif;
-  font-size: 4rem;
+  font-size: 3.6rem;
   font-weight: 500;
   display: block;
   text-transform: none;
-}
-
-@media screen and (min-width: 992px) {
-  h2 span {
-    font-size: 7rem;
-  }
 }
 
 .h2-whyus {
@@ -66,9 +60,26 @@ h2 span {
 }
 
 .h2-subsection {
-  font-size: 7rem;
+  font-size: 5rem;
   text-transform: none;
   font-family: var(--font-heading-primary);
+}
+
+@media screen and (min-width: 992px) {
+  h2 {
+    font-size: 24px;
+    line-height: 3rem;
+  }
+
+  h2 span {
+    font-size: 7rem;
+  }
+
+  .h2-subsection {
+    font-size: 7rem;
+    text-transform: none;
+    font-family: var(--font-heading-primary);
+  }
 }
 
 /* >>> H2 END <<< */
